@@ -25,6 +25,9 @@ const HeaderComponent = () => {
               <Link to="/" className="link">
                 Homepage
               </Link>
+              <Link to="/aboutme" className="link">
+                About Me
+              </Link>
             </div>
           </div>
         </div>

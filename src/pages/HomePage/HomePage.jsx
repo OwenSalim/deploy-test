@@ -1,9 +1,11 @@
 import React from "react";
+import { Typography } from "antd";
 
 const HomePage = () => {
+  const { Title } = Typography;
   return (
     <>
-      <h1>Hello World</h1>
+      <Title>Hello World</Title>
     </>
   );
 };
