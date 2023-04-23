@@ -1,0 +1,9 @@
+.link {
+  font-weight: bold;
+}
+
+.card {
+  background-color: bisque;
+  border-radius: 20px;
+  margin: 10px 0px;
+}

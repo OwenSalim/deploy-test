@@ -1,9 +1,10 @@
-import RouterManagement from "./router/RouterManagement";
+import "./App.css";
+import RouteManagement from "./router/RouteManagement";
 
 function App() {
   return (
     <>
-      <RouterManagement />
+      <RouteManagement />
     </>
   );
 }

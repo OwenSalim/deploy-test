@@ -1,16 +1,20 @@
 import React from "react";
 import { Layout } from "antd";
-import "./footerComponent.css";
 
-const FooterComponent = () => {
+function FooterComponent() {
   const { Footer } = Layout;
+
   return (
     <>
-      <Footer className="footer">
-        <h1>Test Footer</h1>
+      <Footer
+        style={{
+          textAlign: "center",
+        }}
+      >
+        Ant Design ©2023 Created by Ant UED
       </Footer>
     </>
   );
-};
+}
 
 export default FooterComponent;
